@@ -1,0 +1,395 @@
+@import url("https://use.typekit.net/anj8qqv.css");
+
+* {
+    font-family: "brother-1816", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffcf2;
+}
+
+nav {
+    background-color: #252422;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1030;
+}
+
+nav img {
+    width: 10vw;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 3%;
+    padding-top: 1%;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 5%;
+}
+
+a:link {
+    color: #fffcf2;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fffcf2;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #fffcf2 !important;
+    text-decoration: none;
+}
+
+a:active {
+    color: #fffcf2;
+    text-decoration: underline;
+}
+
+main {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.presentacion {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.lema {
+    font-size: 5em;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.resumen {
+    padding-left: 35%;
+    padding-top: 2%;
+    text-align: justify;
+}
+
+.carousel {
+    position: relative;
+    z-index: 1;
+}
+
+.work {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 5%;
+}
+
+.workelemento {
+    width: 25%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252422;
+    color: #fffcf2;
+}
+
+.workelemento img {
+    width: 100%;
+}
+
+.workelemento h3 {
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.skills {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.skills a:link {
+    color: #252422;
+    text-decoration: none;
+}
+
+.skills a:visited {
+    color: #252422;
+    text-decoration: none;
+}
+
+.skills a:hover {
+    font-weight: bold;
+    color: #252422 !important;
+    text-decoration: none;
+}
+
+.skills a:active {
+    color: #252422;
+    text-decoration: underline;
+}
+
+.skills img {
+    width: 12%;
+}
+
+.servicestitulo {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.servicestitulo a:link {
+    color: #252422;
+    text-decoration: none;
+}
+
+.servicestitulo a:visited {
+    color: #252422;
+    text-decoration: none;
+}
+
+.servicestitulo a:hover {
+    font-weight: bold;
+    color: #252422 !important;
+    text-decoration: none;
+}
+
+.servicestitulo a:active {
+    color: #252422;
+    text-decoration: underline;
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 1%;
+}
+
+.serviceselemento {
+    width: 33%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252422;
+    color: #fffcf2;
+}
+
+.serviceselemento img {
+    width: 100%;
+}
+
+.serviceselemento h3 {
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contact a:link {
+    color: #252422;
+    text-decoration: none;
+}
+
+.contact a:visited {
+    color: #252422;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    font-weight: bold;
+    color: #252422 !important;
+    text-decoration: none;
+}
+
+.contact a:active {
+    color: #252422;
+    text-decoration: underline;
+}
+
+.contact img {
+    width: 12%;
+}
+
+footer {
+    background-color: #252422;
+    color: #fffcf2;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 30%;
+}
+
+@media (max-width: 992px) {
+    nav img {
+        width: 20vw;
+    }
+
+    .presentacion {
+        width: 100%;
+        height: 7%;
+        margin-top: 5%;
+    }
+
+    .resumen {
+        font-size: 0.7em;
+        padding-left: 15%;
+    }
+
+    .workelemento h3 {
+        font-size: 1em;
+        padding-top: 6%;
+    }
+
+    .skills img {
+        width: 10%;
+    }
+
+    .serviceselemento h3 {
+        font-size: 1em;
+    }
+
+    .contact img {
+        width: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        width: 100%;
+        height: 9vh;
+        font-size: 0.9em;
+    }
+
+    nav img {
+        width: 25vw;
+    }
+
+    nav ul {
+        padding-top: 2%;
+    }
+
+    .presentacion {
+        width: 100%;
+        height: 7%;
+        margin-top: 5%;
+    }
+
+    .presentacion h1 {
+        font-size: 0.3em;
+        padding-top: 15%;
+    }
+
+    .resumen {
+        font-size: 0.6em;
+        padding-left: 10%;
+    }
+
+    .work {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 5%;
+    }
+
+    .workelemento {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .workelemento h3 {
+        font-size: 1em;
+        padding-top: 5%;
+    }
+
+    .skills img {
+        width: 22%;
+    }
+
+    .services {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .serviceselemento {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .serviceselemento h3 {
+        font-size: 1em;
+        padding-top: 5%;
+    }
+
+    .contact img {
+        width: 22%;
+    }
+
+    footer img {
+        width: 40%;
+    }
+}
+
+@media (max-width: 576px) {
+    nav {
+        height: 7vh;
+        font-size: 0.8em;
+    }
+
+    nav img {
+        width: 20vw;
+    }
+
+    nav ul {
+        padding-top: 3%;
+    }
+
+    .presentacion h1 {
+        padding-top: 20%;
+    }
+}
